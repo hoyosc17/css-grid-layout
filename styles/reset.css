@@ -1,0 +1,64 @@
+*, *::after, *::before {
+
+  /*establece la referencia para el ancho y alto de cajas*/
+  box-sizing: border-box;
+
+  /*elimina los espaciados de caja*/
+  padding: 0;
+  border: 0;
+  margin: 0;
+  
+  /*Hereda las propiedades de fuente del buscador: font-size 16 px*/
+  font: inherit;
+  
+  /*Especifica la alineación vertical de los elementos inline*/
+  vertical-align: baseline;
+  
+  /*especifica el height de las lineas de caja en el elemento*/
+  line-height: 1;
+  
+  /*elimina los bordes redondeados*/
+  border-radius: 0;
+  
+  /*no outline arlededor de nada*/
+  outline: none;
+  
+  /*hereda el color de fuente preestablecido en el padre*/
+  color: inherit;
+}
+
+ol, ul {
+  
+  /*no puntos o bullets en los elementos de lista*/
+  list-style: none;
+}
+
+a {
+  
+  /*El color de la fuente para etiquetas de ancla es heredado*/
+  color: inherit;
+  
+  /*elimina la línea inferior*/
+  text-decoration: none;
+}
+
+button {
+  
+  /*transforma el cursor en un dedo apuntando*/
+  cursor: pointer;
+  background-color: transparent;
+}
+
+blockquote, q {
+  
+  /*no quotes*/
+  quotes: none;
+}
+
+table {
+  
+  /*elimina el espacio entre celdas*/
+  border-spacing: none;
+  /*bordes colapsados*/
+  border-collapse: collapse;
+}
